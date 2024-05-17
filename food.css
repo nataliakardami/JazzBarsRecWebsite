@@ -48,7 +48,7 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
-    height: 40px;
+    height: 4px;
     padding: 10px;
     align-items: flex-start;
 }
@@ -64,7 +64,9 @@ h1 {
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
+    font-family: 'Roboto Slab', serif;
+
 }
 .footer {
 
@@ -75,4 +77,15 @@ h1 {
     background: #ddd;
     margin: 20px 20px;
   }
-  
+  article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  li {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
