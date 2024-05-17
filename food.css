@@ -1,0 +1,13 @@
+#pic {
+    display: flex;
+    background: gray;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile {
+    border-radius: 50%;
+}
