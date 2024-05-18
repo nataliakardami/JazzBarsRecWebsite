@@ -1,3 +1,28 @@
+
+/* --- CSS: Sorted by section and relative inheritance --- */
+
+/* ------------ HEADER --------------- */
+header {
+    background-color: lightblue;
+    font-size: 26px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    height: 500px;
+}
+h1 {    
+    font-size: 36px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-family: 'Roboto Slab', serif;
+
+}
+/* ------------ AUTHOR PROFILE --------------- */
 #profile-pic {
     position: absolute;
     border-radius: 50%;
@@ -10,6 +35,7 @@
     justify-content: center;
     height: 120px;
 }
+
 nav{
     display: flex;
     width: 100vw;
@@ -18,6 +44,23 @@ nav{
     align-items: flex-end;
 
 }
+a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: rgb(51,51,51);
+    line-height: 24px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 130;
+}
+/* ------------ BODY --------------- */
+
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* ------------ ARTICLE --------------- */
 
 .container{
     display: flex;
@@ -25,13 +68,25 @@ nav{
     align-items: center;
     flex-direction: column;
 }
+article{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 66.67vh; 
 
-body {
-    margin: 0;
-    font-family: 'Roboto Slab', serif;
+  }
+ol {
+    padding-left: 0px;
+    margin: 0px;
+}
+li {
+   padding-left: 40px;
 }
 
-p{
+p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     line-height: 32px;
@@ -43,54 +98,5 @@ p{
 .post-img {
     width: 100%;
 }
-header {
-    background-color: lightblue;
-    font-size: 26px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-    height: 500px;
-}
 
-
-
-a{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
-    color: rgb(51,51,51);
-    line-height: 24px;
-    padding-right: 20px;
-    padding-left: 20px;
-    width: 130;
-}
-
-h1 {    
-    font-size: 36px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    font-family: 'Roboto Slab', serif;
-
-}
-
-  article{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    width: 66.67vh; 
-
-  }
-  ol {
-    padding-left: 0px;
-    margin: 0px;
-  }
-  li {
-   padding-left: 40px;
-  }
+ 
