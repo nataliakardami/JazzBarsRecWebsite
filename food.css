@@ -12,7 +12,7 @@ header {
     flex-direction: column;
     margin: auto;
     height: 500px;
-    background: linear-gradient(rgb(25, 7, 232), rgba(150, 8, 145, 0.524)), url('https://media.timeout.com/images/105451853/750/422/image.jpg');
+    background: linear-gradient(rgb(0, 0, 232), rgba(150, 8, 145, 0.524)), url('https://media.timeout.com/images/105451853/750/422/image.jpg');
     background-size: cover;
 }
 h1 {    
@@ -26,13 +26,17 @@ h1 {
 }
 /* ------------ AUTHOR PROFILE --------------- */
 #profile-pic {
-    width: 120;
-    height: 120px;
+    border-radius: 100%;
+    width: 100px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
     position: absolute;
-    border-radius: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
 .profile {
     display: flex;
     justify-content: center;
@@ -59,10 +63,19 @@ nav{
 /* ------------ BODY --------------- */
 
 body {
+
     margin: 0;
     font-family: 'Roboto Slab', serif;
 }
+a:link {
+    color: #42b4d6;
+    background-color: transparent;
+    text-decoration: none;
 
+}
+a:hover {
+    text-decoration: underline;
+  }
 /* ------------ ARTICLE --------------- */
 
 .container{
@@ -89,6 +102,8 @@ ol {
 }
 li {
    padding-left: 40px;
+   color: rgb(51,51,51);
+   
 }
 
 p {
