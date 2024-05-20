@@ -63,7 +63,6 @@ nav{
 /* ------------ BODY --------------- */
 
 body {
-
     margin: 0;
     font-family: 'Roboto Slab', serif;
 }
@@ -84,7 +83,7 @@ a:hover {
     align-items: center;
     flex-direction: column;
     margin-bottom: 60px;
-    
+
 }
 article{
     display: flex;
@@ -118,5 +117,8 @@ p {
 .post-img {
     width: 100%;
 }
-
- 
+#src {
+    font-size: 14px;
+    color: rgba(163, 152, 152, 0.81);
+    font-family: 'Source Sans Pro', sans-serif;
+}
